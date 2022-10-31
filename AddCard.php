@@ -9,6 +9,7 @@
 	<title></title>
 </head>
 <body>
+	<h1>trang add product</h1>
 	<?php 
     $connect = mysqli_connect('3.132.234.157','rew52','123@123a','musics');
     if(!$connect)
