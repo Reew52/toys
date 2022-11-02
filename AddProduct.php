@@ -22,11 +22,11 @@ if($connect){
   <form method="Post" enctype="multipart/form-data">
     <div class="mb-3 mt-3">
       <label for="email">Name:</label>
-      <input type="text" class="form-control" id="email" placeholder="Enter Name of Song" name="song_name">
+      <input type="text" class="form-control" id="email" placeholder="Enter Name of Toy" name="song_name">
     </div>
     <div class="mb-3">
       <label for="pwd">Price:</label>
-      <input type="text" class="form-control" id="pwd" placeholder="Enter Price of Song" name="song_price">
+      <input type="text" class="form-control" id="pwd" placeholder="Enter Price of Toy" name="song_price">
     </div>
      <div class="mb-3">
       <label for="pwd">Description:</label>

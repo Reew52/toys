@@ -45,7 +45,7 @@
             $id = $row['song_id'];
             ?>
             <div class="col-md-6" style="text-align: left;">
-                <h2> Name of Music: <?php echo $row['song_name'];?> </h2>
+                <h2> Name of Toy: <?php echo $row['song_name'];?> </h2>
                 <p>Price: <?php echo $row['song_price'];?> </p>
 
                         <textarea cols="40" rows="10" disabled><?php echo $row["song_description"];?></textarea>
