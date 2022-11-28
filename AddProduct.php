@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php 
-$connect = mysqli_connect('3.132.234.157','rew52','123@123a','musics');
+$connect = mysqli_connect('3.128.54.48','rew52','123@123a','musics');
 if($connect){
 	echo "";
 }else{
@@ -41,7 +41,7 @@ if($connect){
   </form>
 </div>
 <?php
-			$connect = mysqli_connect('3.132.234.157','rew52','123@123a','musics');
+			$connect = mysqli_connect('3.128.54.48','rew52','123@123a','musics');
 			if (isset($_POST['add_product'])) {
 			$song_name =$_POST['song_name'];
 			$song_description =$_POST['song_description'];

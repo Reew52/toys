@@ -11,7 +11,7 @@
 <body>
 	<h1>trang add product</h1>
 	<?php 
-    $connect = mysqli_connect('3.132.234.157','rew52','123@123a','musics');
+    $connect = mysqli_connect('3.128.54.48','rew52','123@123a','musics');
     if(!$connect)
     {
       echo "Kết nối thất bại";
