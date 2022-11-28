@@ -39,7 +39,7 @@
 <body>
 
 	<?php 
-    $connect = mysqli_connect('3.128.54.48','rew52','123@123a','musics');
+    $connect = mysqli_connect('3.128.54.48','rew52','123@123a','music');
     if(!$connect)
     {
       echo "Connection failed";
